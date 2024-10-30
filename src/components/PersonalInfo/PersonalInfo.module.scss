@@ -1,0 +1,100 @@
+.wrapper {
+    margin-top: 20px;
+    margin-left: 33%;
+}
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.avatar {
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.fullname {
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+}
+.username {
+    font-size: 2rem;
+    margin-right: 7px;
+}
+.nickname {
+    font-size: 1.8rem;
+}
+.btn-arrow {
+    width: 50px;
+}
+.btn-elipsis {
+    width: 50px;
+    padding-top: 10px;
+}
+.action {
+    margin-bottom: 10px;
+}
+.subscribe {
+    display: flex;
+    margin-bottom: 15px;
+}
+.status {
+    display: flex;
+    align-items: center;
+}
+.quantity {
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+.follow {
+    font-size: 1.6rem;
+    margin-right: 20px;
+    color: rgba(22, 24, 35, 0.75);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    padding: 10px 32px;
+    cursor: pointer;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        content: '';
+        height: 2px;
+        background-color: rgb(22, 24, 35);
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
+.nav-icon {
+    color: rgb(115, 116, 123);
+    padding-right: 7px;
+}
+.nav-text {
+    font-size: 1.8rem;
+    color: rgb(115, 116, 123);
+}
+.active {
+    color: rgb(22, 24, 35);
+}
+.list-video {
+    list-style: none;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    // width: 356px;
+    // padding: 20px 0 26px 8px;
+    // margin-left: -18px;
+    overflow: hidden auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
+    top: calc(var(--default-layout-header-height));
+    padding-top: 12px;
+    bottom: 0px;
+    width: 348px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    padding-right: 8px;
+    transform: translateX(-12px);
+}
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+.wrapper {
+    margin-top: 12px;
+    margin-left: 40%;
+    position: relative;
+}
+.action-list {
+    position: absolute;
+    top: 37%;
+    left: 360px;
+}
+.action-item {
+    position: relative;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.action-icon {
+    background-color: red;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 11px;
+}
+.icon-wrapper {
+    &:active {
+        background-color: rgba(22, 24, 35, 0.14);
+    }
+}
+.marginTop {
+    margin-top: 20px;
+}
+.plus-icon {
+    color: var(--white-color);
+    width: 12px;
+}
+.icon {
+    width: 21px;
+    height: 21px;
+}
+.text {
+    font-size: 12px;
+    margin-top: 6px;
+}
+.likeBtnActive {
+    color: red;
+}
+.saveBtnActive {
+    color: rgb(250 206 21);
+}
+//social link list
+.social-list {
+    background-color: var(--white-color);
+    width: 280px;
+    min-height: 280px;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    padding: 4px 0;
+    overflow: hidden;
+
+    .arrow-btn {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.arrow-btn,
+.social-item {
+    display: flex;
+    align-items: center;
+    padding: 11px 16px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+.social-wrapper {
+    background-color: #face15;
+    color: #fff;
+}
+.social-icon {
+    font-size: 1.2rem;
+}
+.social-name {
+    margin-left: 12px;
+}
